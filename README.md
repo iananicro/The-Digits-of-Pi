@@ -21,6 +21,8 @@ I was finishing my final semester of college up until early-May 2024, at which p
 
 More serious development began around 7 May 2024, and over the course of approximately 20 - 25 hours, I developed the first version of the website that I am content with.
 
+I am not sure whether or not I actually want to host the website right now, so I'm uploading it to GitHub because I like when software is open source and you can look in to it, plus I'm proud of it and would like to show it off.
+
 Future Features
 ---------------
 As it is, this site is just designed for fun and nothing serious, outside of a small website to refine some skills. If I do decide to continue developing this website, however, I do have some features that I would like to implement, such as...
@@ -30,9 +32,3 @@ As it is, this site is just designed for fun and nothing serious, outside of a s
 - An 'About' page.
 - Development Screenshots through time.
 - Smooth between light and night mode.
-
-Known Issues
-----
-- Hardcore Mode (for Desktop) only working at 100% zoom (as opposed to bigger sizes).
-- Empty spacing under the Decimal Position on Normal Mode
-- Select not having the same CSS effects the buttons have.
