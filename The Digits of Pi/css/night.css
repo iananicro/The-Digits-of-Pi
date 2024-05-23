@@ -28,7 +28,7 @@ h1
   color: #ffffff;
 }
 
-.main, .time, .hardcore, .settings
+.main, .time, .hardcore, .settings, .mainshorter
 {
   
   background-color: #2f2f2f;
@@ -59,7 +59,7 @@ h1
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
   padding: 1em;
   text-align: center;
-  margin: 0.5em;
+  margin: 0.25em;
   animation: fadeIn 1.0s ease-in-out forwards;
   max-width: 17em;
 }
@@ -97,6 +97,11 @@ footer
   min-height: 12em;
 }
 
+.mainshorter
+{
+  min-height: 10em;
+}
+
 .hardcore 
 {
   min-height: 13em;
@@ -113,6 +118,8 @@ button, select
 {
   background-color: #1f1f1f;
   border-color: #1f1f1f;
+  border-style: none;
+  vertical-align: middle;
   color: white;
   padding: 5px 10px;
   border-radius: 8px;

@@ -11,7 +11,7 @@ function checkWindowSize()
   //Display an alert telling the user their window is too small for hardcore mode.
   else 
   {
-    alert("Sorry, but your browser is too small to play Hardcore Mode.\n\nPlease try again by going fullscreen (F11) and refresh (Ctrl + R). Make sure that your browser zoom setting is at 100%.");
+    alert("Sorry, but your browser is too small to play Hardcore Mode.\n\nPlease try again by going fullscreen (F11) and refresh (Ctrl + R).\nPlease also make sure that your browser zoom setting is at 100%.");
   }
 }
 
