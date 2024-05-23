@@ -1,5 +1,7 @@
 Description
 -----
+<img width="400" alt="image" src="https://github.com/iananicro/The-Digits-of-Pi/assets/63181784/df3b0f2a-5c47-41d8-a157-f691f2d5acca">
+
 The Digits of Pi is a hypothetical website that will print each digit of Pi (up to the 3 millionth digit).
 
 Additionally, there is a Hardcore Mode with stricter param
