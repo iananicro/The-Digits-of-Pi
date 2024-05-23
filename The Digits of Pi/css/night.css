@@ -1,0 +1,163 @@
+body 
+{
+  font-family: Arial, sans-serif;
+  color:#ffffff;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 98dvh;
+}
+
+a
+{
+  padding: 0.5em;
+  text-decoration: none;
+  color: #ffffff;
+  animation: shrink 0.25s ease-in-out forwards;
+}
+
+h1, h4
+{
+  margin: 0.1em;
+}
+
+h1
+{
+  color: #ffffff;
+}
+
+.main, .time, .hardcore, .settings
+{
+  
+  background-color: #2f2f2f;
+  border-radius: 16px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  text-align: center;
+  margin: 0.25em;
+  animation: fadeIn 1.0s ease-in-out forwards;
+}
+
+.about
+{
+  background-color: #2f2f2f;
+  border-radius: 16px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  text-align: center;
+  margin: 0.5em;
+  animation: fadeIn 1.0s ease-in-out forwards;
+  max-width: 25em;
+}
+
+.navbar
+{
+  background-color: #2f2f2f;
+  border-radius: 16px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  text-align: center;
+  margin: 0.5em;
+  animation: fadeIn 1.0s ease-in-out forwards;
+  max-width: 17em;
+}
+
+footer
+{
+  text-align: center;
+  animation: fadeIn 1.0s ease-in-out forwards;
+  transition: transform 1.0s ease-in-out;
+  font-size: small;
+}
+
+.navbar a:hover, .hardcore a:hover
+{
+  font-size: 1.1em;
+  animation: grow 0.25s ease-in-out;
+}
+
+.number, .message
+{
+  margin-top: 1em;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.time, .hardcore 
+{
+  min-width: fit-content;
+  min-height: fit-content;
+}
+
+.main
+{
+  min-width: fit-content;
+  min-height: 12em;
+}
+
+.hardcore 
+{
+  min-height: 13em;
+}
+
+.number
+{
+  font-size: 3.0em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+button, select
+{
+  background-color: #1f1f1f;
+  border-color: #1f1f1f;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  height: 2.5em
+}
+
+@keyframes grow 
+{
+  from {font-size: 1em;}
+  to {font-size: 1.1em;}
+}
+
+@keyframes shrink 
+{
+  from {font-size: 1.1em;}
+  to {font-size: 1em;}
+}
+
+@keyframes fadeIn 
+{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/* 
+If you are not on a phone or tablet,
+then scale the site up.
+*/
+@media (min-width: 720px) 
+{
+  body 
+  {
+    font-size: 175%;
+    min-height: 98dvh;
+  }
+
+  footer 
+  {
+    font-size: 75%;
+  }
+
+  button, select
+  {
+    font-size: 100%;
+    height: 2em;
+    text-align: center;
+  }
+}
